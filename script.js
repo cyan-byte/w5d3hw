@@ -17,9 +17,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // Do all of your work inside the document.addEventListener  
 
   // Part 1
+  // Let's start with some simple query selecting.
+  // DOM's personal website title is a bit wordy. Write a JavaScript statement that selects the #main-title ID element. Remember there are a couple of ways to query id. Change the text of the title to something shorter.
+const mainTitle = document.querySelector('#main-title');
+mainTitle.textContent = 'DOM TORETTO';
 
 
   // Part 2
+  // Select the body and change the background-color to a new color of your choice.
+  const body = document.querySelector('body');
+  body.style.backgroundColor = 'lavender';
+  
+
 
 
   // Part 3
